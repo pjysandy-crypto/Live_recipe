@@ -3,6 +3,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>라이브레시피 - 요리가 콘텐츠가 되는 공간</title>
+    <meta name="description" content="라이브레시피는 요리를 직접 만들고 나만의 영상 콘텐츠로 남기는 신개념 쿠킹 스튜디오입니다. 재료 손질부터 뒷정리까지 끝낸 공간에서 요리와 촬영에만 집중하세요.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:title" content="라이브레시피 - 요리가 콘텐츠가 되는 공간">
+    <meta property="og:description" content="요리를 직접 만들고 나만의 영상 콘텐츠로 남기는 신개념 쿠킹 스튜디오. 준비도 정리도 필요 없이 요리와 촬영에만 집중하세요.">
+    <meta property="og:image" content="img/logo.png">
+    <meta property="og:site_name" content="라이브레시피">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="라이브레시피 - 요리가 콘텐츠가 되는 공간">
+    <meta name="twitter:description" content="요리를 직접 만들고 나만의 영상 콘텐츠로 남기는 신개념 쿠킹 스튜디오.">
+    <meta name="twitter:image" content="img/logo.png">
+    <meta name="theme-color" content="#ED5400">
     <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="css/tailwind.css">
     <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
@@ -285,7 +297,7 @@
             </h1>
 
             <p class="text-base md:text-lg text-white/70 mb-10 text-balance max-w-2xl mx-auto leading-relaxed">
-                라이브레시피는 단순한 식당이 아닙니다. 맛있는 요리를 직접 만들고, 우리만의 특별한 영상 콘텐츠로 남길 수 있는 특별한 요리 경험을 제공합니다.
+                혼자만의 취미 기록부터 특별한 날의 데이트, 친구들과의 챌린지까지. 준비도 정리도 필요 없이, 직접 요리하고 촬영하는 즐거움만 남기세요.
             </p>
 
             <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -399,7 +411,7 @@
 
             <!-- 전체 조감도 + 핫스팟 -->
             <div class="relative rounded-3xl overflow-hidden border border-slate-200/60 shadow-sm bg-slate-100">
-                <img src="img/whole1.png" alt="라이브레시피 150평 공간 전체 조감도" class="w-full h-auto object-cover block">
+                <img src="img/space_whole.png" alt="라이브레시피 150평 공간 전체 조감도" class="w-full h-auto object-cover block" loading="lazy" decoding="async">
 
                 <button type="button" class="space-hotspot" style="left:50%; top:75.5%;"
                     data-title="메뉴 &amp; 좌석 선택" data-video="img/space1.mp4"
@@ -408,21 +420,21 @@
                     <span class="ping"></span><span class="relative">1</span>
                 </button>
 
-                <button type="button" class="space-hotspot" style="left:51.5%; top:44%;"
+                <button type="button" class="space-hotspot" style="left:50%; top:15%;"
                     data-title="셀프 샐러드바" data-video="img/space2.mp4"
                     data-desc="신선한 샐러드바에서 원하는 재료를 자유롭게 담습니다."
                     aria-label="샐러드바 공간 자세히 보기" onclick="openSpaceModal(this)">
                     <span class="ping"></span><span class="relative">2</span>
                 </button>
 
-                <button type="button" class="space-hotspot" style="left:79%; top:32%;"
+                <button type="button" class="space-hotspot" style="left:79%; top:50%;"
                     data-title="쿠킹 스튜디오" data-video="img/space3.mp4"
                     data-desc="내가 선택한 요리를 직접 만드는 공간입니다."
                     aria-label="쿠킹 스튜디오 자세히 보기 (오른쪽)" onclick="openSpaceModal(this)">
                     <span class="ping"></span><span class="relative">3</span>
                 </button>
 
-                <button type="button" class="space-hotspot" style="left:8%; top:32%;"
+                <button type="button" class="space-hotspot" style="left:20%; top:50%;"
                     data-title="쿠킹 스튜디오" data-video="img/space3.mp4"
                     data-desc="내가 선택한 요리를 직접 만드는 공간입니다."
                     aria-label="쿠킹 스튜디오 자세히 보기 (왼쪽)" onclick="openSpaceModal(this)">
@@ -464,14 +476,14 @@
     <section class="snap-section tall relative z-10 px-6 bg-section-white">
         <div class="w-full max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
             <div class="order-2 md:order-1 aspect-square md:aspect-[4/5] rounded-3xl overflow-hidden bg-slate-100">
-                <img src="img/cook.jpg" class="w-full h-full object-cover" alt="Filming food">
+                <img src="img/room.png" class="w-full h-full object-cover" alt="라이브레시피에서 요리하는 순간을 촬영하는 모습" loading="lazy" decoding="async">
             </div>
             <div class="order-1 md:order-2 md:pl-12">
                 <div class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-100 mb-6">
                     <iconify-icon icon="solar:videocamera-record-linear" class="text-xl text-slate-700"></iconify-icon>
                 </div>
                 <h2 class="text-3xl font-semibold tracking-tight text-slate-900 mb-6 leading-tight">
-                    카메라만 켜세요, 찍는 모든 순간이 <span class="text-brand">감성 콘텐츠</span>가 됩니다.
+                    카메라만 켜세요, 찍는 모든 순간이<br> <span class="text-brand">감성 콘텐츠</span>가 됩니다.
                 </h2>
                 <p class="text-base text-slate-500 leading-relaxed">
                     요리하는 순간이 곧 콘텐츠가 되는 공간. 라이브레시피는 감각적인 인테리어와 최적의 조명으로 평범한 요리도 감성적인 브이로그와 SNS 콘텐츠로 완성해 드립니다. 오늘의 레시피를, 오늘의 추억으로 기록해 보세요.
@@ -491,14 +503,14 @@
                     <iconify-icon icon="solar:hands-drop-linear" class="text-xl text-slate-700"></iconify-icon>
                 </div>
                 <h2 class="text-3xl font-semibold tracking-tight text-slate-900 mb-6 leading-tight">
-                    시작부터 끝까지, 오롯이 <span class="text-brand">경험</span>에만 집중하는 시간
+                    시작부터 끝까지, <br>오롯이 <span class="text-brand">경험</span>에만 집중하는 시간
                 </h2>
                 <p class="text-base text-slate-500 leading-relaxed">
                     요리는 즐겁지만, 장보기와 설거지는 부담스럽다면. 라이브레시피는 준비와 정리의 수고를 대신하고 요리하는 즐거움만 남겨드립니다. 깨끗하게 준비된 재료와 도구로 요리에 집중하고, 완성된 요리와 소중한 추억, 그리고 성취감만 가져가세요.
                 </p>
             </div>
             <div class="aspect-square md:aspect-[4/5] rounded-3xl overflow-hidden bg-slate-100">
-                <img src="img/gamsung2.png" class="w-full h-full object-cover" alt="Clean kitchen ingredients">
+                <img src="img/gamsung2.png" class="w-full h-full object-cover" alt="깨끗하게 손질되어 준비된 요리 재료와 도구" loading="lazy" decoding="async">
             </div>
         </div>
     </section>
@@ -578,6 +590,10 @@
                 </span>
                 <h2 class="text-3xl md:text-4xl font-semibold text-stone-900 tracking-tight">Cooked with Love</h2>
                 <p class="text-stone-500 font-light mt-2">스테디 · 트랜디 · 디저트, 세 가지 카테고리로 만나는 라이브레시피 메뉴</p>
+                <p class="text-stone-400 font-light text-sm mt-3 inline-flex items-center gap-1.5">
+                    <iconify-icon icon="solar:tv-linear" class="text-sm"></iconify-icon>
+                    여기에 더해, 시즌마다 바뀌는 <span class="text-brand font-medium">한정 콜라보 메뉴</span>가 곧 찾아옵니다.
+                </p>
             </div>
 
             <div class="flex justify-center">
@@ -586,7 +602,7 @@
                 <div class="flip-card click-only min-w-[260px] md:min-w-[300px] aspect-[9/16] snap-center cursor-pointer" tabindex="0" role="button" aria-label="스테디 메뉴 상세정보 보기" onclick="this.classList.toggle('is-flipped')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault(); this.classList.toggle('is-flipped');}">
                     <div class="flip-card-inner rounded-lg shadow-lg">
                         <div class="flip-card-front">
-                            <img src="img/gimbab.jpg" class="w-full h-full object-cover" alt="스테디 메뉴">
+                            <img src="img/mameal_real.jpg" class="w-full h-full object-cover" alt="스테디 메뉴 - 김밥" loading="lazy" decoding="async">
                             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-stone-900/60"></div>
                             <div class="absolute top-4 right-4 bg-white/20 backdrop-blur text-white text-[11px] font-medium px-3 py-1 rounded-full border border-white/30">
                                 탭해서 확인하기
@@ -638,7 +654,7 @@
                 <div class="flip-card click-only min-w-[260px] md:min-w-[300px] aspect-[9/16] snap-center cursor-pointer" tabindex="0" role="button" aria-label="트랜디 메뉴 상세정보 보기" onclick="this.classList.toggle('is-flipped')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault(); this.classList.toggle('is-flipped');}">
                     <div class="flip-card-inner rounded-lg shadow-lg">
                         <div class="flip-card-front">
-                            <img src="img/fish.jpg" class="w-full h-full object-cover" alt="트랜디 메뉴">
+                            <img src="img/omlet_real.jpg" class="w-full h-full object-cover" alt="트랜디 메뉴 - 광어깻잎무침" loading="lazy" decoding="async">
                             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-stone-900/60"></div>
                             <div class="absolute top-4 right-4 bg-white/20 backdrop-blur text-white text-[11px] font-medium px-3 py-1 rounded-full border border-white/30">
                                 탭해서 확인하기
@@ -690,7 +706,7 @@
                 <div class="flip-card click-only min-w-[260px] md:min-w-[300px] aspect-[9/16] snap-center cursor-pointer" tabindex="0" role="button" aria-label="디저트 메뉴 상세정보 보기" onclick="this.classList.toggle('is-flipped')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault(); this.classList.toggle('is-flipped');}">
                     <div class="flip-card-inner rounded-lg shadow-lg">
                         <div class="flip-card-front">
-                            <img src="img/sando.jpg" class="w-full h-full object-cover" alt="디저트 메뉴">
+                            <img src="img/bagle_real.jpg" class="w-full h-full object-cover" alt="디저트 메뉴 - 샌드베이글" loading="lazy" decoding="async">
                             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-stone-900/60"></div>
                             <div class="absolute top-4 right-4 bg-white/20 backdrop-blur text-white text-[11px] font-medium px-3 py-1 rounded-full border border-white/30">
                                 탭해서 확인하기
@@ -745,16 +761,25 @@
     ────────────────────────────────────────────── -->
     <section id="reviews" class="snap-section tall relative z-10 px-6 bg-section-white">
         <div class="w-full max-w-6xl mx-auto">
-            <div class="text-center mb-16">
+            <div class="text-center mb-10">
                 <h2 class="text-3xl md:text-4xl font-semibold tracking-tight text-slate-900 mb-4 text-balance">
                     이미 많은 분들이 <span class="text-brand">라이브레시피</span>에서<br>특별한 하루를 기록하고 있습니다.
                 </h2>
+                <p class="text-base text-slate-500 leading-relaxed max-w-xl mx-auto">
+                    방문 후 아래 해시태그로 콘텐츠를 남기면, 매달 <span class="text-brand font-medium">이달의 셰프</span>로 선정해 소개해 드려요.
+                </p>
+                <div class="flex flex-wrap items-center justify-center gap-2 mt-5">
+                    <span class="inline-flex items-center text-xs font-medium px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-600">#라이브레시피</span>
+                    <span class="inline-flex items-center text-xs font-medium px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-600">#요리체험</span>
+                    <span class="inline-flex items-center text-xs font-medium px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-600">#인생샷맛집</span>
+                    <span class="inline-flex items-center text-xs font-medium px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-600">#이달의셰프챌린지</span>
+                </div>
             </div>
 
             <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-6 mb-12">
                 <div class="bg-slate-50 border border-slate-200/60 rounded-3xl overflow-hidden">
                     <div class="aspect-[4/3] bg-slate-100">
-                        <img src="img/review_gimbab.png" alt="지영님이 만든 메밀김밥" class="w-full h-full object-cover">
+                        <img src="img/review_gimbab.png" alt="지영님이 만든 메밀김밥" class="w-full h-full object-cover" loading="lazy" decoding="async">
                     </div>
                     <div class="p-6">
                         <span class="inline-block text-[11px] font-medium px-2.5 py-1 rounded-full mb-3" style="background-color: rgba(237, 84, 0, 0.12); color: #ED5400;">메밀김밥</span>
@@ -778,7 +803,7 @@
                 <div class="bg-slate-50 border border-slate-200/60 rounded-3xl overflow-hidden">
                     <div class="aspect-[4/3] bg-slate-100 flex items-center justify-center text-slate-300">
                         <!-- <iconify-icon icon="solar:gallery-wide-linear" class="text-3xl"></iconify-icon> -->
-                        <img src="img/review_sotbab.jpg"  class="w-full h-full object-cover">
+                        <img src="img/review_sotbab.jpg" alt="석현님이 만든 버섯 솥밥" class="w-full h-full object-cover" loading="lazy" decoding="async">
                     </div>
                     <div class="p-6">
                         <span class="inline-block text-[11px] font-medium px-2.5 py-1 rounded-full mb-3" style="background-color: rgba(237, 84, 0, 0.12); color: #ED5400;">버섯 솥밥</span>
@@ -801,7 +826,7 @@
 
                 <div class="bg-slate-50 border border-slate-200/60 rounded-3xl overflow-hidden">
                     <div class="aspect-[4/3] bg-slate-100 flex items-center justify-center text-slate-300">
-                        <img src="img/review_ramyun.png"  class="w-full h-full object-cover">
+                        <img src="img/review_ramyun.png" alt="연진님이 만든 불닭 오믈렛" class="w-full h-full object-cover" loading="lazy" decoding="async">
                     </div>
                     <div class="p-6">
                         <span class="inline-block text-[11px] font-medium px-2.5 py-1 rounded-full mb-3" style="background-color: rgba(237, 84, 0, 0.12); color: #ED5400;">불닭 오믈렛</span>
@@ -824,7 +849,7 @@
 
                 <div class="bg-slate-50 border border-slate-200/60 rounded-3xl overflow-hidden">
                     <div class="aspect-[4/3] bg-slate-100 flex items-center justify-center text-slate-300">
-                        <img src="img/review_dubai.png"  class="w-full h-full object-cover">
+                        <img src="img/review_dubai.png" alt="은호님이 만든 두바이 초콜릿 쿠키" class="w-full h-full object-cover" loading="lazy" decoding="async">
                     </div>
                     <div class="p-6">
                         <span class="inline-block text-[11px] font-medium px-2.5 py-1 rounded-full mb-3" style="background-color: rgba(237, 84, 0, 0.12); color: #ED5400;">두바이 초콜릿 쿠키</span>
@@ -851,6 +876,146 @@
                  <a href="https://smore.im/form/BzpFQvULR4" target="_blank">예약 하러가기</a>
                     <iconify-icon icon="solar:arrow-right-linear"></iconify-icon>
                 </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ──────────────────────────────────────────────
+         섹션 9-A: 셰프 레벨 (멤버십 · 준비 중 예고)  [ED5400 tint]
+    ────────────────────────────────────────────── -->
+    <section id="chef-level" class="snap-section relative z-10 border-t border-slate-100 px-6 bg-brand-tint">
+        <div class="w-full max-w-4xl mx-auto grid sm:grid-cols-[1fr_190px] gap-8 sm:gap-10 lg:gap-14 items-start">
+
+            <!-- 왼쪽: 카피 -->
+            <div>
+                <span class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full mb-6" style="background-color: rgba(237, 84, 0, 0.12); color: #ED5400;">
+                    <iconify-icon icon="solar:clock-circle-linear" class="text-sm"></iconify-icon>
+                    COMING SOON · 준비 중
+                </span>
+                <h2 class="text-3xl md:text-4xl font-semibold tracking-tight text-slate-900 mb-5 leading-tight text-balance">
+                    요리할수록 올라가는<br><span class="text-brand">셰프 레벨</span>
+                </h2>
+                <p class="text-base text-slate-500 leading-relaxed mb-8">
+                    방문할 때마다 경험치가 쌓이고, 레벨이 오를수록 특별한 혜택과 한정 미션이 열립니다.<br class="hidden sm:inline">
+                    <br>요리를 즐기는 것만으로 '레시피 앰버서더'가 되는 멤버십을 준비하고 있어요.
+                </p>
+                <ul class="space-y-3.5 mb-8">
+                    <li class="flex items-center gap-3 text-sm text-slate-600">
+                        <span class="w-9 h-9 rounded-full bg-white border border-slate-200/80 flex items-center justify-center shrink-0 shadow-sm">
+                            <iconify-icon icon="solar:chef-hat-linear" class="text-slate-700"></iconify-icon>
+                        </span>
+                        방문할수록 경험치가 쌓여 셰프 등급이 올라갑니다
+                    </li>
+                    <li class="flex items-center gap-3 text-sm text-slate-600">
+                        <span class="w-9 h-9 rounded-full bg-white border border-slate-200/80 flex items-center justify-center shrink-0 shadow-sm">
+                            <iconify-icon icon="solar:gift-linear" class="text-slate-700"></iconify-icon>
+                        </span>
+                        등급별 한정 메뉴 · 특별 미션 · 시즌 이벤트 우선 참여
+                    </li>
+                    <li class="flex items-center gap-3 text-sm text-slate-600">
+                        <span class="w-9 h-9 rounded-full bg-white border border-slate-200/80 flex items-center justify-center shrink-0 shadow-sm">
+                            <iconify-icon icon="solar:stars-linear" class="text-slate-700"></iconify-icon>
+                        </span>
+                        내 요리와 콘텐츠가 소개되는 '레시피 앰버서더' 활동
+                    </li>
+                </ul>
+                <a href="https://smore.im/form/BzpFQvULR4" target="_blank" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-white text-sm font-semibold px-7 py-3.5 rounded-full hover:opacity-90 transition-all shadow-md shadow-orange-500/25" style="background-color:#ED5400;">
+                    오픈 알림 신청하기
+                    <iconify-icon icon="solar:arrow-right-linear"></iconify-icon>
+                </a>
+            </div>
+
+            <!-- 오른쪽: 셰프 레벨 등급 미리보기 (작은 썸네일) -->
+            <div class="relative max-w-[180px] mx-auto sm:mx-0 sm:mt-9">
+                <span class="block text-[10px] font-semibold tracking-wide text-slate-400 mb-2 text-center sm:text-left">레벨 미리보기</span>
+                <img src="img/live_recipe_level.png" alt="라이브레시피 셰프 레벨 등급 안내"
+                     class="w-full h-auto rounded-xl border border-slate-200/70 shadow-sm" loading="lazy" decoding="async">
+                <p class="mt-2.5 text-[10px] text-slate-400 leading-relaxed text-center sm:text-left">
+                    등급 구성과 혜택은 오픈 시 확정됩니다.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ──────────────────────────────────────────────
+         섹션 9-B: 집에서도 이어서 — PB 상품 (출시 예정 예고)  [White]
+    ────────────────────────────────────────────── -->
+    <section id="at-home" class="snap-section relative z-10 border-t border-slate-100 px-6 bg-section-white">
+        <div class="w-full max-w-4xl mx-auto">
+            <div class="text-center mb-8">
+                <span class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full mb-5" style="background-color: rgba(237, 84, 0, 0.12); color: #ED5400;">
+                    <iconify-icon icon="solar:bag-smile-linear" class="text-sm"></iconify-icon>
+                    COMING SOON · 출시 예정
+                </span>
+                <h2 class="text-3xl md:text-4xl font-semibold tracking-tight text-slate-900 mb-4 text-balance">
+                    체험한 그 맛, <span class="text-brand">집에서도</span> 이어서
+                </h2>
+                <p class="text-base text-slate-500 leading-relaxed max-w-xl mx-auto">
+                    매장에서 만든 메뉴 그대로의 밀키트와, 공간을 채운 굿즈를 온라인몰에서 준비하고 있어요.
+                </p>
+            </div>
+
+            <!-- 상품 미리보기 -->
+            <div class="flex flex-wrap justify-center gap-4 sm:gap-5">
+                <!-- <div class="snap-start shrink-0 w-[150px] sm:w-[176px]">
+                    <div class="relative aspect-square rounded-2xl overflow-hidden mb-3 shadow-sm" style="background:linear-gradient(145deg,#f59e0b,#ea580c);">
+                        <span class="absolute top-3 left-3 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-white/90 text-slate-700">COMING SOON</span>
+                        <span class="absolute inset-0 flex items-center justify-center">
+                            <iconify-icon icon="solar:box-linear" class="text-5xl text-white/90"></iconify-icon>
+                        </span>
+                    </div>
+                    <p class="text-sm font-semibold text-slate-900">시그니처 밀키트</p>
+                    <p class="text-xs text-slate-400 mt-0.5">K-커리 · 비빔밥 · 스테이크</p>
+                </div> -->
+
+                <div class="snap-start shrink-0 w-[150px] sm:w-[176px]">
+                    <div class="relative aspect-square rounded-2xl overflow-hidden mb-3 shadow-sm bg-slate-100">
+                        <span class="absolute top-3 left-3 z-10 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-white/90 text-slate-700">COMING SOON</span>
+                        <img src="img/goods3_cook.png" alt="실리콘 조리도구 세트" class="w-full h-full object-cover" loading="lazy" decoding="async">
+                    </div>
+                    <p class="text-sm font-semibold text-slate-900">실리콘 조리도구 세트</p>
+                    <p class="text-xs text-slate-400 mt-0.5">파스텔 톤 5종</p>
+                </div>
+
+                <div class="snap-start shrink-0 w-[150px] sm:w-[176px]">
+                    <div class="relative aspect-square rounded-2xl overflow-hidden mb-3 shadow-sm bg-slate-100">
+                        <span class="absolute top-3 left-3 z-10 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-white/90 text-slate-700">COMING SOON</span>
+                        <img src="img/goods1.png" alt="스트라이프 앞치마" class="w-full h-full object-cover" loading="lazy" decoding="async">
+                    </div>
+                    <p class="text-sm font-semibold text-slate-900">스트라이프 앞치마</p>
+                    <p class="text-xs text-slate-400 mt-0.5">매장과 같은 디자인</p>
+                </div>
+
+                <div class="snap-start shrink-0 w-[150px] sm:w-[176px]">
+                    <div class="relative aspect-square rounded-2xl overflow-hidden mb-3 shadow-sm bg-slate-100">
+                        <span class="absolute top-3 left-3 z-10 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-white/90 text-slate-700">COMING SOON</span>
+                        <img src="img/goods2_cup.png" alt="머그컵 세트" class="w-full h-full object-cover" loading="lazy" decoding="async">
+                    </div>
+                    <p class="text-sm font-semibold text-slate-900">머그컵 세트</p>
+                    <p class="text-xs text-slate-400 mt-0.5">우드 뚜껑 · 2P</p>
+                </div>
+
+                <div class="snap-start shrink-0 w-[150px] sm:w-[176px]">
+                    <div class="relative aspect-square rounded-2xl overflow-hidden mb-3 shadow-sm" style="background:linear-gradient(155deg,#2a1810,#1c1108);">
+                        <span class="absolute top-3 left-3 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-orange-400/20 text-orange-200">LIMITED</span>
+                        <span class="absolute inset-0 flex items-center justify-center">
+                            <iconify-icon icon="solar:stars-linear" class="text-5xl text-orange-300/90"></iconify-icon>
+                        </span>
+                    </div>
+                    <p class="text-sm font-semibold text-slate-900">한정 콜라보 굿즈</p>
+                    <p class="text-xs text-slate-400 mt-0.5">시즌마다 새롭게</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-9">
+                <a href="https://smore.im/form/BzpFQvULR4" target="_blank" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-white text-sm font-semibold px-7 py-3.5 rounded-full hover:opacity-90 transition-all shadow-md shadow-orange-500/25" style="background-color:#ED5400;">
+                    출시 알림 신청하기
+                    <iconify-icon icon="solar:arrow-right-linear"></iconify-icon>
+                </a>
+                <p class="text-xs text-slate-400 mt-4">온라인몰 오픈 전까지는 매장에서 먼저 만나보실 수 있어요.</p>
             </div>
         </div>
     </section>
